@@ -20,6 +20,9 @@ SET time_zone = "+00:00";
 
 --
 -- Database: `ctf`
+
+CREATE  DATABASE IF NOT EXISTS whitewalker;
+USE whitewalker;
 --
 
 -- --------------------------------------------------------
@@ -269,7 +272,7 @@ INSERT INTO `pwd` (`id`, `pwd`, `name`, `level`) VALUES
 -- Table structure for table `users`
 --
 
-DROP TABLE IF EXISTS `users`;
+DROP TABLE IF EXISTS users;
 CREATE TABLE IF NOT EXISTS `users` (
   `user_id` int(3) NOT NULL AUTO_INCREMENT,
   `user_name` varchar(30) NOT NULL,
@@ -283,7 +286,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`user_id`, `user_name`, `address`, `age`, `gender`) VALUES
+INSERT INTO users (`user_id`, `user_name`, `address`, `age`, `gender`) VALUES
 (1, 'Bradley', '430 Carberry Street', '20', 'Male'),
 (2, 'Creighton', '205 Hintze Center', '0', 'Male'),
 (3, 'Andrey', '503 Northfield Hill', '27', 'Male'),
