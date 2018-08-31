@@ -70,7 +70,7 @@ class LevelController extends Controller
     public function requestLevel2(Request $request)
     {
         $flag = $request->get("flag");
-        if ($flag == md5(session('ses'))) {
+        if ($flag == (session('ses'))) {
             return $this->getLevel2();
         } else
             return redirect("/");
@@ -86,6 +86,14 @@ class LevelController extends Controller
             return back();
     }
 
+
+    private function getLevel4()
+    {
+        if ($this->validateSession())
+            return view("level4.level4");
+        else
+            return redirect("/");
+    }
 
     /////   VALIDATION REQUESTS   ///////
 
@@ -112,13 +120,7 @@ class LevelController extends Controller
 
     }
 
-    private function getLevel4()
-    {
-        if ($this->validateSession())
-            return view("level4.level4");
-        else
-            return redirect("/");
-    }
+
 
 
 }
