@@ -26,17 +26,61 @@ class LevelController extends Controller
             return redirect("/");
     }
 
-//////////////////////////////////////////////////////
-//////////////////////////////////////////////////////
+    private function getLevel3()
+    {
+        if ($this->validateSession())
+            return view("level3.level3");
+        else
+            return redirect("/");
+    }
+
+    private function getLevel4()
+    {
+        if ($this->validateSession())
+            return view("level4.level4");
+        else
+            return redirect("/");
+    }
+
+    private function getLevel5()
+    {
+        if ($this->validateSession())
+            return view("level5.level5");
+        else
+            return redirect("/");
+    }
+
+    private function getLevel6()
+    {
+        if ($this->validateSession())
+            return view("level6.level6");
+        else
+            return redirect("/");
+    }
+
+    private function getLevel7()
+    {
+        if ($this->validateSession())
+            return view("level7.level7");
+        else
+            return redirect("/");
+    }
+
+    private function getLevel8()
+    {
+        if ($this->validateSession())
+            return view("level8.level8");
+        else
+            return redirect("/");
+    }
 
 
-
-///////////////////// LOGIN  /////////////////////////
+/////////////////////   LOGIN   ////////////////////////
 
     public function validateSession()
     {
         if (null == session('ses')) {
-           return false;
+            return false;
         } else {
             return true;
         }
@@ -67,6 +111,9 @@ class LevelController extends Controller
         return redirect("/");
     }
 
+
+    ////////////   VALIDATION REQUESTS   ////////////
+
     public function requestLevel2(Request $request)
     {
         $flag = $request->get("flag");
@@ -79,48 +126,53 @@ class LevelController extends Controller
     public function requestLevel3(Request $request)
     {
         $flag = $request->get('flag');
-        //Iron Man Sucks
-        if ($flag == "abcd")
+        if ($flag == "Iron Man Sucks")
             return $this->getLevel3();
         else
             return back();
     }
 
 
-    private function getLevel4()
-    {
-        if ($this->validateSession())
-            return view("level4.level4");
-        else
-            return redirect("/");
-    }
-
-    /////   VALIDATION REQUESTS   ///////
-
-    private function getLevel3()
-    {
-        if ($this->validateSession())
-            return view("level3.level3");
-        else
-            return redirect("/");
-    }
-
     public function requestLevel4(Request $request)
     {
-
+        if ($request->get('flag') == "abcd") {
+            return $this->getLevel4();
+        } else
+            return back();
     }
 
     public function requestLevel5(Request $request)
     {
-
+        if ($request->get('flag') == "abcd") {
+            return $this->getLevel5();
+        } else
+            return back();
     }
 
     public function requestLevel6(Request $request)
     {
-
+        if ($request->get('flag') == "abcd") {
+            return $this->getLevel6();
+        } else
+            return back();
     }
 
 
+    public function requestLevel7(Request $request)
+    {
+        if ($request->get('flag') == "abcd") {
+            return $this->getLevel7();
+        } else
+            return back();
+    }
+
+    public function requestLevel8(Request $request)
+    {
+        if ($request->get('flag') == "87afc1cdbf4c4db7b8305dffaa3faf16") {
+            return $this->getLevel8();
+        } else
+            return back();
+    }
 
 
 }
