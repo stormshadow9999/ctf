@@ -19,6 +19,10 @@
 -- Table structure for table `emp`
 --
 
+CREATE DATABASE IF NOT EXISTS whitewalker;
+USE whitewalker;
+
+
 DROP TABLE IF EXISTS `emp`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
