@@ -18,3 +18,5 @@ Route::get('/requestlevel7','LevelController@requestLevel7');
 Route::get('/requestlevel8','LevelController@requestLevel8');
 Route::get('/requestlevel9','LevelController@requestLevel9');
 
+//SQL I
+Route::get('/searchlevel8','LevelController@searchLevel8');

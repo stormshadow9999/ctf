@@ -22,7 +22,7 @@
                 <div class="panel panel-default" style="background-color: rgba(223,222,222,0.29); border: none; padding: 20px">
                     <h3 style="color: #b21400"><strong>Flag</strong></h3>
                     <div class="panel-body">
-                        <form action="/requestlevel6" method="GET">
+                        <form action="/requestlevel7" method="GET">
                             <div class="form-group">
                                 <input type="text" name="flag" class="form-control" placeholder="flag...">
                             </div>
