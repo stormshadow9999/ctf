@@ -80,7 +80,7 @@ class LevelController extends Controller
     {
         $flag = $request->get('flag');
         //Iron Man Sucks
-        if ($flag == "abcd")
+        if ($flag == "Iron Man Sucks")
             return $this->getLevel3();
         else
             return back();

@@ -2,11 +2,11 @@
 
 @section('content')
     <div class="container" style="margin-top: 50px">
-        <h1><code>Level 2</code></h1>
+        <h1><code>Level 3</code></h1>
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
-                <p> </p>
+                <p> stegno in audio  </p>
             </div>
         </div>
 
@@ -14,6 +14,8 @@
         <div class="row" style="margin-top: 20px">
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
                <h1>LEVEL 3</h1>
+
+
             </div>
         </div>
 
