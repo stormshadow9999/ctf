@@ -1,2 +1,2 @@
-User-agent: 5503e9f473035b3e1a25c417aafada1d4b480b021308e7206bd838360cef396f
-Disallow: 652
+User-agent: *
+Disallow:
