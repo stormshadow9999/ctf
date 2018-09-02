@@ -186,7 +186,7 @@ class LevelController extends Controller
 
     public function requestLevel9(Request $request)
     {
-        if ($request->get('flag') == "abcd") {
+        if ($request->get('flag') == "d28b0ffb74b6963b0f5d167f960a12c1") {
             return $this->getLevel9();
         } else
             return back();
