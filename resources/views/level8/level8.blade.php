@@ -6,7 +6,7 @@
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
-                <p>KLFB</p>
+                <p><strong>Jon and Khaleesi found a database. There are many interesting names that includes in it. For example, Maddick, Sail, Skyba, Lamp etc. Try to find some more.  </strong></p>
             </div>
         </div>
 

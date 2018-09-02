@@ -6,14 +6,16 @@
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
-                <p> </p>
+                <p>Download the file and find the flag from the white walker. </p>
             </div>
         </div>
 
-
         <div class="row" style="margin-top: 20px">
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
-                <h1>LEVEL 6</h1>
+                <ul>
+                    <li><a href="{{asset('/ctf1.jar')}}">Download</a></li>
+
+                </ul>
             </div>
         </div>
 
