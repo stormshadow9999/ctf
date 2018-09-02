@@ -68,13 +68,18 @@ class LevelController extends Controller
 
     private function getLevel8()
     {
-        if ($this->validateSession())
-        {
+        if ($this->validateSession()) {
             $data['data'] = DB::table('emp')->select('*')->get();
 
             return view("level8.level8")->with($data);
-        }
+        } else
+            return redirect("/");
+    }
 
+    private function getLevel9()
+    {
+        if ($this->validateSession())
+            return view("level9.level9");
         else
             return redirect("/");
     }
@@ -179,16 +184,23 @@ class LevelController extends Controller
             return back();
     }
 
+    public function requestLevel9(Request $request)
+    {
+        if ($request->get('flag') == "abcd") {
+            return $this->getLevel9();
+        } else
+            return back();
+    }
 
-    //SQL I Search
 
+    ////  SQL I Search   //////
 
 
     public function searchLevel8(Request $request)
     {
-        $key=$request->get('key');
+        $key = $request->get('key');
 
-        $query="select * from emp where emp_name='".$key."'";
+        $query = "select * from emp where emp_name='" . $key . "'";
 
         $data['data'] = DB::select($query);
 
