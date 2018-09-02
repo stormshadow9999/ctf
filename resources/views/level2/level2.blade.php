@@ -6,7 +6,8 @@
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
-                <p><strong>Are you a fan of super heros?? guess what in this level you got find them.But some super heros are hard to find.But i bet you can find them.All super heros got secret codes.If you a really a fan of them you know Sometimes they humiliate ecah others just for fun.So who is the real super hero?</strong></p>
+                <p><strong>Are you a fan of Game of Thrones?? guess what in this level you got find them.But some are hard to find.But i bet you can find them.here they got secret codes..
+                        everyone wants to rule the kingdoms .So who is it gonna be?</strong></p>
             </div>
         </div>
 
@@ -14,12 +15,12 @@
         <div class="row" style="margin-top: 20px">
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
                 <ul>
-                    <li><a href="{{asset('img/stegno/1.png')}}">Download</a></li>
-                    <li><a href="{{asset('img/stegno/2.jpg')}}">Download</a></li>
-                    <li><a href="{{asset('img/stegno/3.png')}}">Download</a></li>
-                    <li><a href="{{asset('img/stegno/4.png')}}">Download</a></li>
-                    <li><a href="{{asset('img/stegno/5.jpg')}}">Download</a></li>
-                    <li><a href="{{asset('img/stegno/6.png')}}">Download</a></li>
+                    <li><a href="{{asset('img/stegnoctf/6.jpg')}}">Download</a></li>
+                    <li><a href="{{asset('img/stegnoctf/4.jpg')}}">Download</a></li>
+                    <li><a href="{{asset('img/stegnoctf/3.png')}}">Download</a></li>
+                    <li><a href="{{asset('img/stegnoctf/21.jpg')}}">Download</a></li>
+                    <li><a href="{{asset('img/stegnoctf/5.jpg')}}">Download</a></li>
+                    <li><a href="{{asset('img/stegnoctf/1.jpg')}}">Download</a></li>
                 </ul>
             </div>
         </div>
