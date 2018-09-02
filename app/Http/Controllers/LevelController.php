@@ -131,7 +131,7 @@ class LevelController extends Controller
     public function requestLevel3(Request $request)
     {
         $flag = $request->get('flag');
-        if ($flag == "Iron Man Sucks")
+        if ($flag == "I was born to rule the Seven Kingdoms, and I will")
             return $this->getLevel3();
         else
             return back();
@@ -140,7 +140,7 @@ class LevelController extends Controller
 
     public function requestLevel4(Request $request)
     {
-        if ($request->get('flag') == "abcd") {
+        if ($request->get('flag') == "Mother of Dragons") {
             return $this->getLevel4();
         } else
             return back();

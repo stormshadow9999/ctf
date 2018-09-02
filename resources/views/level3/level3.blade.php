@@ -6,7 +6,7 @@
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
-                <p> stegno in audio  </p>
+                <p>   </p>
             </div>
         </div>
 
@@ -15,7 +15,12 @@
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
                <h1>LEVEL 3</h1>
 
-
+                <p>Music reaches where words can’t. It’s known even for the animals” – Catelyn Stark.
+                <br>You'll have to see something before hearing.</p>
+                <ul>
+                <li><a href="{{asset('sound/ctf_2.wav')}}">Download</a></li>
+                <li><a href="{{asset('textfiles/ctftext1.txt')}}">Download</a></li>
+                </ul>
             </div>
         </div>
 
