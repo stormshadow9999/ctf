@@ -6,14 +6,25 @@
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
-                <p> </p>
+                <p> <B>Jon and Khaleesi went dumpster diving. After 20 hours of searching, they found a magazine that looks somewhat suspicious. However, it is unreadble. can you help them find what it is about?
+                    </B></p>
             </div>
+
         </div>
 
 
         <div class="row" style="margin-top: 20px">
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
-                <h1>LEVEL 4</h1>
+                <h1></h1>
+            </div>
+
+            <div class="row" style="margin-top: 20px">
+                <div class="col-md-8 col-md-offset-2" style="color: #000000;">
+                    <ul>
+                        <li><a href="{{asset('img/Capture-2.PNG')}}">Download</a></li>
+
+                    </ul>
+                </div>
             </div>
         </div>
 

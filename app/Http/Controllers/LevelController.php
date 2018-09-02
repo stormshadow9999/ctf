@@ -148,7 +148,7 @@ class LevelController extends Controller
 
     public function requestLevel5(Request $request)
     {
-        if ($request->get('flag') == "abcd") {
+        if ($request->get('flag') == "valar morghulis") {
             return $this->getLevel5();
         } else
             return back();
@@ -156,7 +156,7 @@ class LevelController extends Controller
 
     public function requestLevel6(Request $request)
     {
-        if ($request->get('flag') == "abcd") {
+        if ($request->get('flag') == "ygritteSnow") {
             return $this->getLevel6();
         } else
             return back();
@@ -165,7 +165,7 @@ class LevelController extends Controller
 
     public function requestLevel7(Request $request)
     {
-        if ($request->get('flag') == "abcd") {
+        if ($request->get('flag') == "Wh3nyY0up|ayTh3Gam30fThr0n3$,Y0uW1n0rY0uDi3!") {
             return $this->getLevel7();
         } else
             return back();
