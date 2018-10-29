@@ -14,7 +14,7 @@
         <div class="row" style="margin-top: 20px">
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
                 <h3>Packet Filtering</h3>
-                <p>Download the pcap and find the password</p>
+                <p>After travelling all around the world, they were tired. So, Jon and Khaleesi stooped to have a break. After finding a cave to sleep in for the night, they found some cave paintings drawn on the walls. The most interesting thing that caught their eyes was a drawing with a saying called "http rule!." </p>
                 <a href="/mel.pcap" class="btn btn-info">Download</a>
             </div>
         </div>

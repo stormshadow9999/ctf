@@ -5,8 +5,8 @@
         <h1><code>Level 6</code></h1>
 
         <div class="row">
-            <div class="col-md-8 col-md-offset-2" style="color: #000000;">
-                <p>Download the file and find the flag from the white walker. </p>
+            <div class="col-1md-8 col-md-offset-2" style="color: #000000;">
+                <p>Despacito! It was their favourite song in the 21st century. </p>
             </div>
         </div>
 

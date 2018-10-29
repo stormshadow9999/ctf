@@ -6,7 +6,7 @@
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
-                <p> </p>
+                <p>Next Levels comming soon! </p>
             </div>
         </div>
 

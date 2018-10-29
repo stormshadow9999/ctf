@@ -4,7 +4,7 @@
     <div class="container login-form" style="margin-top: 100px">
         <div class="row">
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
-                <p><strong>Jon Snow and Daenerys Targaryen aka Khaleesi has entered to the 21st century. They are here to find whaite walkers, which each carries a flag that has come to destroy the world.
+                <p><strong>Jon Snow and Daenerys Targaryen aka Khaleesi has entered to the 21st century. They are here to find white walkers, which each carries a flag that has come to destroy the world.
                         Your task, uncover the truth, find the white walkers and show it to the world. Set the truth free.
 
 
