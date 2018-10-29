@@ -18,8 +18,9 @@
 
         <div class="row" style="margin-top: 20px">
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
-                <p>Description here: KILLME.c</p>
-                <a href="/KillMe.c" class="btn btn-primary" target="_blank">Download</a>
+                <p>Access the program using application debugging knowledge.</p>
+                <p><i>Hint: You'll have to use a previous secret somewhere here...</i></p>
+                <a href="/killme.zip" class="btn btn-primary" target="_blank">Download</a>
             </div>
         </div>
 

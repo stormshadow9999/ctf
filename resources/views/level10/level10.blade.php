@@ -13,6 +13,12 @@
 
         <div class="row" style="margin-top: 20px">
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
+                <p>Hmm.. you'll only see a change if certain things are to be changed.</p>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 20px">
+            <div class="col-md-8 col-md-offset-2" style="color: #000000;">
                 @if(isset($flag))
                     <h5>FLAG : {{$flag}}</h5>
                 @endif

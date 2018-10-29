@@ -255,7 +255,7 @@ class LevelController extends Controller
     //killme
     public function requestLevel10(Request $request)
     {
-        if ($request->get('flag') == "abcd") {
+        if ($request->get('flag') == "jhsdjygfehvhjriufksdj") {
             $agent = $request->headers->get('User-Agent');
             return $this->getLevel10($agent);
         } else
@@ -273,7 +273,7 @@ class LevelController extends Controller
 
     public function requestLevel12(Request $request)
     {
-        if ($request->get('flag') == "abcd") {
+        if ($request->get('flag') == "112.135.12.110") {
             return $this->getLevel12();
         } else
             return back();
@@ -281,7 +281,7 @@ class LevelController extends Controller
 
     public function requestLevel13(Request $request)
     {
-        if ($request->get('flag') == "abcd") {
+        if ($request->get('flag') == "936a185caaa266bb9cbe981e9e05cb78cd732b0b3280eb944412bb6f8f8f07af") {
             return $this->getLevel13();
         } else
             return back();
@@ -289,7 +289,7 @@ class LevelController extends Controller
 
     public function requestLevel14(Request $request)
     {
-        if ($request->get('flag') == "abcd") {
+        if ($request->get('flag') == "PASSWORDISGIGEMXHISTORYROCKSLEARNCRYPTOX") {
             return $this->getLevel14();
         } else
             return back();
@@ -297,7 +297,7 @@ class LevelController extends Controller
 
     public function requestLevel15(Request $request)
     {
-        if ($request->get('flag') == "abcd") {
+        if ($request->get('flag') == "LXPlxWdwWdOmcskhdcldsa") {
             return $this->getLevel15();
         } else
             return back();
@@ -305,7 +305,7 @@ class LevelController extends Controller
 
     public function requestfuckoff(Request $request)
     {
-        if ($request->get('flag') == "abcd") {
+        if ($request->get('flag') == "fl46:kSwDW2j@NS28sqNa2EAOsa_QQ") {
             return $this->getFuck();
         } else
             return back();
