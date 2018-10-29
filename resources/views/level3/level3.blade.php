@@ -10,7 +10,7 @@
                         <br>You'll have to see something before hearing.</strong></p>
             </div>
         </div>
-
+    <div class="hidden">Secret : RememberMeForNext</div>
 
         <div class="row" style="margin-top: 20px">
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
