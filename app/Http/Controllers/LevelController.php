@@ -84,11 +84,71 @@ class LevelController extends Controller
             return redirect("/");
     }
 
+    private function getLevel10($agent)
+    {
+        if ($this->validateSession()){
+            if($agent == "AppleWebKit"){
+                return view("level10.level10")->with(['flag'=>'e2fc714c4727ee9395f324cd2e7f331f']);
+            }
+            else{
+                return view("level10.level10")->with(['flag'=>'User Agent Invalid!']);
+            }
+        }
+        else
+            return redirect("/");
+    }
+
+    private function getLevel11()
+    {
+        if ($this->validateSession())
+            return view("level11.level11");
+        else
+            return redirect("/");
+    }
+
+    private function getLevel12()
+    {
+        if ($this->validateSession())
+            return view("level12.level12");
+        else
+            return redirect("/");
+    }
+
+    private function getLevel13()
+    {
+        if ($this->validateSession())
+            return view("level13.level13");
+        else
+            return redirect("/");
+    }
+
+    private function getLevel14()
+    {
+        if ($this->validateSession())
+            return view("level14.level14");
+        else
+            return redirect("/");
+    }
+
+    private function getLevel15()
+    {
+        if ($this->validateSession())
+            return view("level15.level15");
+        else
+            return redirect("/");
+    }
+
+    private function getFuck(){
+        if ($this->validateSession())
+            return view("fuckoff");
+        else
+            return redirect("/");
+    }
+
 
 /////////////////////   LOGIN   ////////////////////////
 
-    public function validateSession()
-    {
+    public function validateSession(){
         if (null == session('ses')) {
             return false;
         } else {
@@ -192,6 +252,66 @@ class LevelController extends Controller
             return back();
     }
 
+    //killme
+    public function requestLevel10(Request $request)
+    {
+        if ($request->get('flag') == "abcd") {
+            $agent = $request->headers->get('User-Agent');
+            return $this->getLevel10($agent);
+        } else
+            return back();
+    }
+
+
+    public function requestLevel11(Request $request)
+    {
+        if ($request->get('flag') == "e2fc714c4727ee9395f324cd2e7f331f") {
+            return $this->getLevel11();
+        } else
+            return back();
+    }
+
+    public function requestLevel12(Request $request)
+    {
+        if ($request->get('flag') == "abcd") {
+            return $this->getLevel12();
+        } else
+            return back();
+    }
+
+    public function requestLevel13(Request $request)
+    {
+        if ($request->get('flag') == "abcd") {
+            return $this->getLevel13();
+        } else
+            return back();
+    }
+
+    public function requestLevel14(Request $request)
+    {
+        if ($request->get('flag') == "abcd") {
+            return $this->getLevel14();
+        } else
+            return back();
+    }
+
+    public function requestLevel15(Request $request)
+    {
+        if ($request->get('flag') == "abcd") {
+            return $this->getLevel15();
+        } else
+            return back();
+    }
+
+    public function requestfuckoff(Request $request)
+    {
+        if ($request->get('flag') == "abcd") {
+            return $this->getFuck();
+        } else
+            return back();
+    }
+
+
 
     ////  SQL I Search   //////
 
@@ -206,5 +326,6 @@ class LevelController extends Controller
 
         return view("level8.level8")->with($data);
     }
+
 
 }

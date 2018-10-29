@@ -17,6 +17,15 @@ Route::get('/requestlevel6','LevelController@requestLevel6');
 Route::get('/requestlevel7','LevelController@requestLevel7');
 Route::get('/requestlevel8','LevelController@requestLevel8');
 Route::get('/requestlevel9','LevelController@requestLevel9');
+Route::get('/requestlevel10','LevelController@requestLevel10');
+Route::get('/requestlevel11','LevelController@requestLevel11');
+Route::get('/requestlevel12','LevelController@requestLevel12');
+Route::get('/requestlevel13','LevelController@requestLevel13');
+Route::get('/requestlevel14','LevelController@requestLevel14');
+Route::get('/requestlevel15','LevelController@requestLevel15');
+
+Route::get('/fuckoff','LevelController@requestfuckoff');
+
 
 //SQL I
 Route::get('/searchlevel8','LevelController@searchLevel8');
