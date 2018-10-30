@@ -6,7 +6,7 @@
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2" style="color: #000000;">
-                <p> <B>Jon and Khaleesi went dumpster diving. After 20 hours of searching, they found a magazine that looks somewhat suspicious. However, it is unreadble. can you help them find what it is about?
+                <p> <B>Jon and Khaleesi went dumpster diving. After 6 hours of searching, they found a magazine that looks somewhat suspicious. However, it is unreadble. can you help them find what it is about?
                     </B></p>
             </div>
 
